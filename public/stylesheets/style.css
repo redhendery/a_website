@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   height: 100%;
 }
@@ -6,6 +10,8 @@ body {
   min-height: 100%;
   display: flex;
   flex-direction: column;
+  margin: 0;
+  font: 16px Sans-Serif;
 }
 
 .content {
@@ -17,14 +23,12 @@ body {
   padding: 20px;
 }
 
-* {
-  box-sizing: border-box;
-}
 
-body {
+
+/*body {
   margin: 0;
   font: 16px Sans-Serif;
-}
+}*/
 
 h1 {
   padding: 50px;
@@ -64,7 +68,7 @@ footer {
 .navigation a {
   text-decoration: none;
   display: block;
-  padding: 0 50px 0 0;
+  padding-right: 50px;
   color: white;
 }
 
@@ -95,6 +99,9 @@ footer {
 
 .stack {
   display: flex;
+}
+
+.stack .picture img {
+  width: 100%;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
