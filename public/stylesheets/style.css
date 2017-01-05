@@ -16,7 +16,7 @@ body {
 
 .content {
   flex: 1;
-  padding: 20px;
+  padding: 10px;
 }
 
 .footer {
@@ -24,12 +24,8 @@ body {
 }
 
 h1 {
-  padding: 50px;
-  margin: 0 0 20px 0;
-}
-
-p {
-  margin: 0 0 20px 0;
+  text-align: center;
+  padding-bottom: 10px;
 }
 
 footer {
