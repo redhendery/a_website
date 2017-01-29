@@ -22,7 +22,6 @@ body {
 }
 
 .content {
-  flex: 1;
   padding: 10px;
 }
 
@@ -59,7 +58,6 @@ footer {
 
 .col-0 {
   flex: 1;
-  /*max-width: 20%;*/
 }
 
 .col-1 {
@@ -106,4 +104,19 @@ footer {
 
 figcaption {
   margin-top: 10px;
+}
+
+.story-1 {
+  padding-left: 15px;
+  max-width: 100%;
+}
+
+.story-2 {
+  display: flex;
+  padding-left: 15px;
+  max-width: 100%;
+}
+
+.gif {
+  padding: 15px 25px 50px 10px;
 }
