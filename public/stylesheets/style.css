@@ -18,11 +18,11 @@ body {
   border-radius: 50%;
   max-width: 10%;
   max-height: 10%;
-  padding: 10px 0 10px 0;
+  padding: 10px 30 10px 0;
 }
 
 .content {
-  padding: 10px;
+  padding-left: 10px;
 }
 
 .footer {
@@ -118,5 +118,5 @@ figcaption {
 }
 
 .gif {
-  padding: 15px 25px 50px 10px;
+  padding: 17px 25px 61px 10px;
 }
