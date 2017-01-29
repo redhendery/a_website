@@ -57,6 +57,7 @@ footer {
 }
 
 .col-0 {
+  padding-left: 10px;
   flex: 1;
 }
 
@@ -67,7 +68,7 @@ footer {
 .navigation a {
   text-decoration: none;
   display: block;
-  padding-right: 50px;
+  padding: 0 50px 0 15px;
   color: white;
 }
 
